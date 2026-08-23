@@ -58,12 +58,6 @@ header img {
     transform: scale(1.05);
 }
 
-.Menu a:first-child {
-    border: 1px solid #00ff9d;
-    padding: 10px 16px;
-    border-radius: 25px;
-}
-
 
 .Hero {
     margin-left: 45px;
