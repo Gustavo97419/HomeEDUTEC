@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+
+    background-image: url("./imagem 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+
+header {
+    width: 100%;
+    height: 230px;
+    padding: 10px 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+header img {
+    height: 200px;      
+    width: auto;
+    display: block;
+}
+
+
+.Menu {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    
+   margin-left: auto;
+   align-self: flex-start;
+    margin-top: 30px; 
+}
+
+.Menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.Menu a:hover {
+    transform: scale(1.05);
+}
+
+.Menu a:first-child {
+    border: 1px solid #00ff9d;
+    padding: 10px 16px;
+    border-radius: 25px;
+}
+
+
+.Hero {
+    margin-left: 45px;
+    margin-top: 0px;
+}
+
+.Hero p:first-child {
+    color: #00ff9d;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.Hero h1 {
+    color: white;
+    font-size: 40px;
+    line-height: 1.05;
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+.Hero p:last-child {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 450px;
+}
+
+
+.Navegação {
+    display: flex;
+    gap: 35px;
+
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.Navegação a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+
+    color: #001b2e;
+    background-color: #00ff9d;
+
+    padding: 11px 18px;
+    border-radius: 25px;
+}
+
+
+.Navegação a:last-child {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #00ff9d;
+     transition: all 0.3s ease;
+}
+
+.Navegação a:last-child:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.Navegação a:first-child {
+    color: #001b2e;
+    background-color: #00ff9d;
+    transition: 0.2s ease;
+}
+
+.Navegação a:first-child:hover {
+    background-color: #119464;
+    color: white;
+}
+
